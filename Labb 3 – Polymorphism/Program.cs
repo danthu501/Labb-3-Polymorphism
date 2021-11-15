@@ -6,13 +6,13 @@ namespace Labb_3___Polymorphism
     {
         static void Main(string[] args)
         {
-            Cirkel C1 = new Cirkel();
+            Teckning C1 = new Cirkel();
             Console.WriteLine("Area Cirkel: "+C1.Area());
 
-            Fyrkant F1 = new Fyrkant();
+            Teckning F1 = new Fyrkant();
             Console.WriteLine("Area Fyrkant: "+F1.Area());
 
-            Rektangel R1 = new Rektangel();
+            Teckning R1 = new Rektangel();
             Console.WriteLine("Area Rektangel: "+R1.Area());
         }
     }
